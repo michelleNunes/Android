@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    tools:context=".MainActivity"
+    android:id="@+id/rlay"
+    android:background="@drawable/fundo"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textViewLista"
+        android:textColor="#FF4500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   PROMOÇÕES    "
+        android:gravity="end"
+        android:textSize="25sp"
+
+        android:textColorHint="#ffb859"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="89dp" />
+
+    <TextView
+        android:id="@+id/TextViewInserir"
+        android:textColor="#FF4500"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:background="@drawable/mais"
+        android:text="  "
+        android:gravity="end"
+        android:textSize="25sp"
+        android:layout_below="@+id/textViewLista"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp" />
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/b"
+        android:layout_alignBottom="@+id/textViewLista"
+        android:layout_toLeftOf="@+id/textViewLista"
+        android:layout_toStartOf="@+id/textViewLista" />
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/promo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
